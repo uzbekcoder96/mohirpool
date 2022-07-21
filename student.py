@@ -21,8 +21,9 @@ class Student:
             print("Name   : ", ob.full_name)
             print("Faculty: ", ob.faculty)
             print("Admission_year : ", ob.admission_year)
-            print('\n')    
-     # Talabano qidirish    
+            print('\n')   
+            
+    # Talabani qidirish    
     def find(self, id):
         for i in range(ls.__len__()):
             if(ls[i].id == id):
@@ -33,7 +34,7 @@ class Student:
         i = obj.find(id)  
         del ls[i]
   
-    #    Talabani o'zgartirish
+    # Talabani o'zgartirish
     def update(self, rn, No):
         i = obj.find(rn)
         roll = No
@@ -64,7 +65,7 @@ class Master(Student):
         ls.append(obj)        
 
 
-# talabalar listi
+# Talabalar listi
 ls =[]
 
 
